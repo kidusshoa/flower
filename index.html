@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Do You Love More?</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        background-image: url("bg.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .button-container {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        color: #fff;
+        background-color: #c82333; /* Default color for the "You" button */
+        min-width: 120px;
+        box-sizing: border-box;
+      }
+
+      .btn:hover {
+        background-color: #4a1116; /* Default hover color for the "You" button */
+      }
+
+      .btn-flowers {
+        background-color: #0056b3;
+      }
+
+      .btn-flowers:hover {
+        background-color: #0c2f53;
+      }
+
+      @media (max-width: 600px) {
+        .btn {
+          width: 100%;
+          font-size: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Whom do you love more??</h1>
+    </div>
+    <div class="button-container">
+      <a href="./option.html" class="btn">Flowers</a>
+      <a href="./me.html" class="btn btn-flowers">You</a>
+    </div>
+  </body>
+</html>
