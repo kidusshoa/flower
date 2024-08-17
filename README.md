@@ -1,6 +1,8 @@
 # Flower
 
-### Downlode Ruby
+# Kidus Zekarias
+
+### Download Ruby
 
 Download Ruby for the SCSS
 
